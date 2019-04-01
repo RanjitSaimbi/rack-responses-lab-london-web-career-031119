@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
     time = Time.new
     
-    if num_1==num_2 && num_2==num_3
+    if time == 
       resp.write "Good Morning!"
     else
       resp.write "Good Afternoon!"
