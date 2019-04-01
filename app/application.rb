@@ -1,4 +1,7 @@
+require 'pry'
 class Application
+  
+  bindi
 
   def call(env)
     resp = Rack::Response.new
