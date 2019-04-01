@@ -1,6 +1,6 @@
 require 'pry'
 class Application
-  
+  Time.new 
   binding.pry
 
   def call(env)
